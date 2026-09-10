@@ -46,6 +46,6 @@ public class DocenteController {
 	@DeleteMapping("/deleteDocente/{codigo}")
 	public String deleteDocente(@PathVariable int codigo) {
 		docenteService.eliminarDocente(codigo);
-		return "Docente eliminado correctame
+		return "Docente eliminado correcta
 	
 
