@@ -47,5 +47,5 @@ public class DocenteController {
 	public String deleteDocente(@PathVariable int codigo) {
 		docenteService.eliminarDocente(codigo);
 		return "Docente eliminado correctamente";
-	}
+	
 }
