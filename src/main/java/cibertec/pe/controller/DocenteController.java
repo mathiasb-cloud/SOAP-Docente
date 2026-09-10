@@ -48,4 +48,4 @@ public class DocenteController {
 		docenteService.eliminarDocente(codigo);
 		return "Docente eliminado correctamente";
 	
-}
+
