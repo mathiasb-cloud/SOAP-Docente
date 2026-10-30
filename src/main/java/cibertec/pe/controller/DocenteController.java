@@ -45,4 +45,4 @@ public class DocenteController {
 	
 	@DeleteMapping("/deleteDocente/{codigo}")
 	public String deleteDocente(@PathVariable int codigo) {
-		docente
+		docent
